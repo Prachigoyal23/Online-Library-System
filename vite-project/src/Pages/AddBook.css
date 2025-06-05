@@ -1,0 +1,67 @@
+.AddBook-heading {
+  text-align: center;
+  font-size: 32px;
+  color: #2c3e50;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.addbook-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.addbook-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.addbook-form input,
+.addbook-form textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.addbook-form input:focus,
+.addbook-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.addbook-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.addbook-form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addbook-form button:hover {
+  background-color: #0056b3;
+}
+
+.addbook-form p {
+  margin: 0;
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
