@@ -57,7 +57,7 @@ src/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/online-library.git
+   git clone https:/Prachigoyal23/github.com//online-library.git
    cd vite-project
 
 2. Install dependencies:
