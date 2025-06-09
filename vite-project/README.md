@@ -9,7 +9,6 @@ If you are working directly inside this folder:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/online-library.git
-   ```bash
    cd vite-project
 
 2. Install dependencies:
