@@ -1,10 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 .header{
     display: flex;
-    width: 95%;
+    width: 98%;
     height: 300px;
     margin: 20px;
     background: url('https://st2.depositphotos.com/1518767/10655/i/450/depositphotos_106557848-stock-photo-students-desk-against-library-shelf.jpg');
@@ -16,13 +17,14 @@
     margin: 50px;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 50%;
 }
 .header-content h1{
     margin-bottom: 30px;
+    color: #333;
 }
-.header img{
-    width: 45%;
+.header-content h3{
+  color: #0056b3;
 }
 
 
@@ -40,6 +42,7 @@
 }
 .book-category{
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     font-weight: bold;
     font-size: larger;
@@ -48,6 +51,7 @@
 
 .book-category li{
     border: 1px solid #92c3ec;
+    border-radius: 50%;
     padding: 10px 25px 10px 25px;
     background-color: #92c3ec;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -60,6 +64,7 @@
 .result-heading {
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 28px;
   font-weight: 600;
   color: #333;

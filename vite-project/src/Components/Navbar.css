@@ -20,21 +20,3 @@
   color: #007bff; 
   transform: scale(1.1);
 }
-
- .icons{
-    margin-left: 1350px;
-    width: 35%;
-    display: flex;
-    gap: 15px;
-    justify-content: space-around;
- }
- .icons svg {
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-.icons svg:hover {
-  color: #007bff;
-  transform: scale(1.2);
-}

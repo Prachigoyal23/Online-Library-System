@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import '../App.css'
 import { useState } from 'react';
 
-const Home = () => {
+function Home(){
   // If using Redux:
   // const books = useSelector((state) => state.books.books);
 
@@ -34,7 +34,7 @@ const Home = () => {
 
       <div className='header'>
         <div className='header-content'>
-          <h1>Welcome to the Online Library !</h1>
+          <h1>WELCOME TO THE ONLINE LIBRARY !</h1>
           <h3>Join a growing community of book lovers and learners. Whether you're here to study, explore, or just unwind with a good story, we’ve got something for everyone.</h3>
         </div>
       </div>
@@ -52,6 +52,7 @@ const Home = () => {
           padding: '10px',
           margin: '20px 5px 10px 15px',
           fontSize: '16px',
+          borderRadius: '20px'
         }}
       />
       
@@ -98,7 +99,7 @@ const Home = () => {
 
      {/* Popular Books */}
 
-      <h2 className="popular-heading">Popular Books</h2>
+      <h2 className="popular-heading">POPULAR BOOKS</h2>
 <div className="popular-grid">
   {popularBooks.map(book => (
     <div key={book.id} className="popular-card">

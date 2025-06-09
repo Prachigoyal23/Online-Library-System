@@ -5,7 +5,7 @@ import { addBook } from '../utils/BooksSlice';
 import BookForm from '../Components/SearchBar';
 import './AddBook.css'
 
-const AddBook = () => {
+function AddBook(){
   const dispatch = useDispatch();
   const navigate = useNavigate();
 

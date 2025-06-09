@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../Pages/AddBook.css'
 
-const SearchBar = ({ onSubmit }) => {
+function SearchBar({ onSubmit }){
   const [form, setForm] = useState({
     title: '', author: '', category: '', coverImage: '', description: '', rating: '', 
   });

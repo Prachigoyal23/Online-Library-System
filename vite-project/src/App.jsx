@@ -7,7 +7,8 @@ import BookDetails from './Pages/BookDetails';
 import AddBook from './Pages/AddBook';
 import NotFound from './Pages/NotFound';
 
-const App = () => (
+function App(){
+  return (
   <>
     <Navbar />
     <Routes>
@@ -18,7 +19,8 @@ const App = () => (
       <Route path="*" element={<NotFound />} />
     </Routes>
   </>
-);
+  );
+};
 
 export default App;
 
