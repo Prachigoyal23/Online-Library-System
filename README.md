@@ -25,30 +25,30 @@ Welcome to the **Online Library** — a modern and user-friendly web application
 
 ## 📁 Project Structure
 
-src/
-├── Components/
-│ ├── BookCard.jsx
-| ├── Navbar.css
-| ├── Navbar.jsx
-│ └── SearchBar.jsx
-├── Pages/
-│ ├── AddBook.jsx
-| ├── AddBook.css
-| ├── BookDetails.css
-│ ├── BookDetails.jsx
-| ├── BrowseBooks.css
-│ ├── BrowseBooks.jsx
-│ ├── HomePage.jsx
-| ├── NotFound.css
-│ └── NotFound.jsx
-├── utils/
-│ ├── BooksSlice.js
-│ └── mockBooks.js
-| ├── Store.js
-├──App.css
-├── App.jsx
-├── index.css
-├── main.jsx
+    src/
+    ├── Components/
+    │ ├── BookCard.jsx
+    | ├── Navbar.css
+    | ├── Navbar.jsx
+    │ └── SearchBar.jsx
+    ├── Pages/
+    │ ├── AddBook.jsx
+    | ├── AddBook.css
+    | ├── BookDetails.css
+    │ ├── BookDetails.jsx
+    | ├── BrowseBooks.css
+    │ ├── BrowseBooks.jsx
+    │ ├── HomePage.jsx
+    | ├── NotFound.css
+    │ └── NotFound.jsx
+    ├── utils/
+    │ ├── BooksSlice.js
+    │ └── mockBooks.js
+    | ├── Store.js
+    ├──App.css
+    ├── App.jsx
+    ├── index.css
+    ├── main.jsx
 
 ---
 
