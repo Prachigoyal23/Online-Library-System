@@ -54,21 +54,23 @@ src/
 
 ## Installation
 
-Clone the repository:
+1. Clone the repository:
 
+   ```bash
    git clone https://github.com/your-username/online-library.git
-
    cd vite-project
 
-Install dependencies:
+2. Install dependencies:
 
+   ```bash
    npm install
 
-Run the development server
+3. Run the development server
 
+   ```bash
    npm run dev
 
-This will launch the app in your default browser at http://localhost:5173
+ This will launch the app in your default browser at http://localhost:5173
 
 ---
 
